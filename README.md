@@ -20,18 +20,19 @@
 ## 📸 Visual Showcase
 
 ```markdown
-![Home](assets/homepage.png)
-![Dashboard](assets/dashboard.png)
-![AI Suggestions](assets/aisuggestion.png)
-![Login Screen](assets/login.png)
-![Water Record](assets/waterusage.png)
-![ELec Record](assets/elec.png)
-![Effluent Quality Record](assets/effluent.png)
-![Monthly Report](assets/report1.png)
-![PDF Export](assets/report.png)
-![About Us](assets/about1.png)
-![Contact Us](assets/contact.png)
-![Signup Screen](assets/signup.png)
+![Home](https://raw.githubusercontent.com/tejwant-dhanoa/EnergyFlow-IndustrialTracker/main/assets/homepage.png)
+![Dashboard](https://raw.githubusercontent.com/tejwant-dhanoa/EnergyFlow-IndustrialTracker/main/assets/dashboard.png)
+![AI Suggestions](https://raw.githubusercontent.com/tejwant-dhanoa/EnergyFlow-IndustrialTracker/main/assets/aisuggestion.png)
+![Login Screen](https://raw.githubusercontent.com/tejwant-dhanoa/EnergyFlow-IndustrialTracker/main/assets/login.png)
+![Water Record](https://raw.githubusercontent.com/tejwant-dhanoa/EnergyFlow-IndustrialTracker/main/assets/waterusage.png)
+![ELec Record](https://raw.githubusercontent.com/tejwant-dhanoa/EnergyFlow-IndustrialTracker/main/assets/elec.png)
+![Effluent Quality Record](https://raw.githubusercontent.com/tejwant-dhanoa/EnergyFlow-IndustrialTracker/main/assets/effluent.png)
+![Monthly Report](https://raw.githubusercontent.com/tejwant-dhanoa/EnergyFlow-IndustrialTracker/main/assets/report1.png)
+![PDF Export](https://raw.githubusercontent.com/tejwant-dhanoa/EnergyFlow-IndustrialTracker/main/assets/report.png)
+![About Us](https://raw.githubusercontent.com/tejwant-dhanoa/EnergyFlow-IndustrialTracker/main/assets/about1.png)
+![Contact Us](https://raw.githubusercontent.com/tejwant-dhanoa/EnergyFlow-IndustrialTracker/main/assets/contact.png)
+![Signup Screen](https://raw.githubusercontent.com/tejwant-dhanoa/EnergyFlow-IndustrialTracker/main/assets/signup.png)
+
 ```
 
 ## 🧠 Core Features
