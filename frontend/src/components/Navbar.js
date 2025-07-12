@@ -8,7 +8,6 @@ import {
   LucideInfo,
   LucideMail,
   LucideAlignLeft,
-  LucideShield,
 } from "lucide-react";
 import AuthContext from "../context/AuthContext";
 import logo from "../assets/logo.png";
@@ -35,10 +34,6 @@ const Navbar = ({ isSidebarOpen, toggleSidebar }) => {
     logout();
     setDropdownOpen(false);
     navigate("/login");
-  };
-
-  const handleAdminAccess = () => {
-    navigate("/adminlogin"); // Navigate to the Admin Login Page
   };
 
   return (

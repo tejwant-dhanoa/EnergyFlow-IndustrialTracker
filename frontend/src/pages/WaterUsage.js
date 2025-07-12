@@ -54,6 +54,14 @@ const WaterUsage = () => {
     }
   };
 
+  if (isLoading) {
+    return (
+      <div className="min-h-screen bg-gray-900 text-white flex items-center justify-center">
+        <div className="text-xl animate-pulse">Loading...</div>
+      </div>
+    );
+  }
+
   return (
     <div className="min-h-screen bg-gray-900 text-white pt-24 relative overflow-hidden">
       {/* Background Animation Layer */}

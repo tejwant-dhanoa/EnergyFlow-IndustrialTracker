@@ -2,6 +2,7 @@
 import { useEffect, useState, useRef } from "react";
 import axios from "axios";
 import { motion } from "framer-motion";
+import { useCallback } from "react";
 import {
   BarChart,
   Bar,
@@ -58,12 +59,15 @@ const WaterElectricEffluentDashboard = () => {
     elecUsage.length === 0 &&
     effluentData.length === 0;
 
-  const filterByTimeRange = (data) => {
-    const now = new Date();
-    const past = new Date();
-    past.setDate(now.getDate() - (timeRange === "week" ? 7 : 30));
-    return data.filter((d) => new Date(d.date) >= past);
-  };
+  const filterByTimeRange = useCallback(
+    (data) => {
+      const now = new Date();
+      const past = new Date();
+      past.setDate(now.getDate() - (timeRange === "week" ? 7 : 30));
+      return data.filter((d) => new Date(d.date) >= past);
+    },
+    [timeRange]
+  );
 
   const getAvg = (arr, key) => {
     const valid = arr.filter((i) => i[key]);
@@ -230,11 +234,11 @@ const WaterElectricEffluentDashboard = () => {
 
   const filteredWaterUsage = useMemo(
     () => filterByTimeRange(waterUsage),
-    [waterUsage, timeRange]
+    [waterUsage, filterByTimeRange]
   );
   const filteredElecUsage = useMemo(
     () => filterByTimeRange(elecUsage),
-    [elecUsage, timeRange]
+    [elecUsage, filterByTimeRange]
   );
 
   return (

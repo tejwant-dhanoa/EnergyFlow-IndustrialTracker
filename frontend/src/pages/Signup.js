@@ -94,6 +94,12 @@ const Signup = () => {
         `${process.env.REACT_APP_API_BASE}/api/auth/register`,
         formData
       );
+
+      if (response.status === 201) {
+        console.log("User registered successfully");
+        // Or redirect / show success message
+      }
+
       setShowSuccessPopup(true);
 
       // Clear form after success

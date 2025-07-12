@@ -4,7 +4,6 @@ import {
   FaChartLine,
   FaUserShield,
   FaUsers,
-  FaStar,
   FaCheckCircle,
 } from "react-icons/fa";
 import {
@@ -15,12 +14,7 @@ import {
   TrendingUp,
   Users,
 } from "lucide-react";
-import {
-  LucideArrowRight,
-  LucideStar,
-  LucideTrendingUp,
-  LucideWallet,
-} from "lucide-react";
+import { LucideArrowRight, LucideStar, LucideTrendingUp } from "lucide-react";
 import KeenSlider from "keen-slider";
 import { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
@@ -58,7 +52,7 @@ const Home = () => {
   //     text: " The dashboard is intuitive, the AI predictions are spot on, and we've already noticed a significant drop in unnecessary resource consumption.",
   //   },
   // ];
-  const [sliderRef, setSliderRef] = useState(null);
+  const [sliderRef] = useState(null);
 
   useEffect(() => {
     if (sliderRef) {

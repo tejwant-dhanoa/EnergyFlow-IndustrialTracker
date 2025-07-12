@@ -1,9 +1,9 @@
-import { useState, useEffect } from "react";
+import { useState } from "react";
 import { motion } from "framer-motion";
 import axios from "axios";
 import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
-import { LucideBolt, LucideMapPin, LucideClipboardCheck } from "lucide-react";
+import { LucideBolt, LucideMapPin } from "lucide-react";
 
 const ElecUsagePage = () => {
   const [location, setLocation] = useState("");

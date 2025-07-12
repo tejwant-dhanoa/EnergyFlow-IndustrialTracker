@@ -1,9 +1,9 @@
 import React, { useEffect, useState } from "react";
 import { useNavigate } from "react-router-dom";
 import { LucideUser, LucideKey, LucideShield } from "lucide-react";
-import axios from 'axios';
-import { ToastContainer, toast } from 'react-toastify';
-import 'react-toastify/dist/ReactToastify.css';
+
+import { ToastContainer, toast } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
 import Footer from "../components/Footer";
 const AdminLogin = () => {
   const [loaded, setLoaded] = useState(false);
@@ -25,7 +25,7 @@ const AdminLogin = () => {
       localStorage.setItem("isAdmin", "true");
 
       // Redirect to admin dashboard
-      navigate('/admin/dashboard');
+      navigate("/admin/dashboard");
     } else {
       toast.error("Invalid username or password", {
         position: "top-right",
@@ -40,18 +40,25 @@ const AdminLogin = () => {
 
   return (
     <>
-      <div className={`flex min-h-screen transition-all duration-1000 ease-out ${loaded ? "opacity-100 scale-100" : "opacity-0 scale-95"}`}>
+      <div
+        className={`flex min-h-screen transition-all duration-1000 ease-out ${
+          loaded ? "opacity-100 scale-100" : "opacity-0 scale-95"
+        }`}
+      >
         {/* Left Side - Animated Background with Floating Overlay Text */}
         <div
           className="relative w-1/2 hidden lg:flex items-center justify-center bg-cover bg-center transition-all duration-1000 ease-in-out transform hover:scale-105"
           style={{
-            backgroundImage: "url('https://img.lovepik.com/background/20211022/large/lovepik-simple-geometric-business-background-image_402009661.jpg')",
+            backgroundImage:
+              "url('https://img.lovepik.com/background/20211022/large/lovepik-simple-geometric-business-background-image_402009661.jpg')",
           }}
         >
-          <div className="absolute inset-0 bg-black bg-opacity-60"></div> {/* Dark Overlay */}
+          <div className="absolute inset-0 bg-black bg-opacity-60"></div>{" "}
+          {/* Dark Overlay */}
           <div className="relative text-white px-10 text-center">
             <h1 className="text-5xl font-extrabold leading-tight animate-float hover:animate-glow transition-all duration-700">
-              Admin <span className="text-indigo-400 animate-pulse">Dashboard</span>
+              Admin{" "}
+              <span className="text-indigo-400 animate-pulse">Dashboard</span>
             </h1>
             <p className="mt-4 text-lg opacity-90 animate-slide-in hover:text-indigo-300 transition-all duration-700 hover:scale-105">
               Secure. Fast. Reliable.
@@ -62,7 +69,9 @@ const AdminLogin = () => {
         {/* Right Side - Animated Admin Login Form */}
         <div className="w-full lg:w-1/2 flex items-center justify-center bg-gray-900 px-8 pt-20">
           <div className="bg-white bg-opacity-10 backdrop-blur-lg rounded-lg shadow-lg p-10 w-full max-w-md border border-gray-700 transform transition-all duration-700 ease-in-out hover:scale-[1.05] hover:shadow-indigo-500/50">
-            <h2 className="text-4xl font-semibold text-center mb-6 text-white animate-slide-up">Admin Login</h2>
+            <h2 className="text-4xl font-semibold text-center mb-6 text-white animate-slide-up">
+              Admin Login
+            </h2>
 
             {/* Feature Icons - Smooth Floating */}
             <div className="flex justify-center space-x-6 mb-6">
@@ -98,7 +107,7 @@ const AdminLogin = () => {
             />
 
             {/* Login Button - **ULTIMATE BUTTON ANIMATION!** */}
-            <button 
+            <button
               onClick={handleAdminLogin}
               className="relative w-full p-3 mt-6 bg-gradient-to-r from-indigo-500 to-purple-500 text-white rounded-lg shadow-lg overflow-hidden transition-all transform hover:scale-105 hover:shadow-indigo-500/50 active:scale-95 group"
             >

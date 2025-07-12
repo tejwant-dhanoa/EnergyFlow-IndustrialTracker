@@ -25,6 +25,7 @@ const EffluentQuality = () => {
     remarks: "",
   });
 
+  // eslint-disable-next-line no-unused-vars
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
@@ -46,25 +47,28 @@ const EffluentQuality = () => {
       return toast.error("Location and date are required");
 
     try {
-      await axios.post(`${process.env.REACT_APP_API_BASE}/api/effluent-quality`, {
-        ...formData,
-        email,
-        // Convert numeric fields to float
-        pH: parseFloat(formData.pH),
-        BOD: parseFloat(formData.BOD),
-        COD: parseFloat(formData.COD),
-        TSS: parseFloat(formData.TSS),
-        TDS: parseFloat(formData.TDS),
-        heavyMetals: parseFloat(formData.heavyMetals),
-        turbidity: parseFloat(formData.turbidity),
-        dissolvedOxygen: parseFloat(formData.dissolvedOxygen),
-        ammonia: parseFloat(formData.ammonia),
-        nitrates: parseFloat(formData.nitrates),
-        phosphates: parseFloat(formData.phosphates),
-        temperature: parseFloat(formData.temperature),
-        oilAndGrease: parseFloat(formData.oilAndGrease),
-        coliformCount: parseFloat(formData.coliformCount),
-      });
+      await axios.post(
+        `${process.env.REACT_APP_API_BASE}/api/effluent-quality`,
+        {
+          ...formData,
+          email,
+          // Convert numeric fields to float
+          pH: parseFloat(formData.pH),
+          BOD: parseFloat(formData.BOD),
+          COD: parseFloat(formData.COD),
+          TSS: parseFloat(formData.TSS),
+          TDS: parseFloat(formData.TDS),
+          heavyMetals: parseFloat(formData.heavyMetals),
+          turbidity: parseFloat(formData.turbidity),
+          dissolvedOxygen: parseFloat(formData.dissolvedOxygen),
+          ammonia: parseFloat(formData.ammonia),
+          nitrates: parseFloat(formData.nitrates),
+          phosphates: parseFloat(formData.phosphates),
+          temperature: parseFloat(formData.temperature),
+          oilAndGrease: parseFloat(formData.oilAndGrease),
+          coliformCount: parseFloat(formData.coliformCount),
+        }
+      );
 
       toast.success("Effluent quality record added!");
       setFormData((prev) => ({

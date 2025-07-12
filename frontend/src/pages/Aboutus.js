@@ -6,14 +6,9 @@ import {
   FaLock,
   FaRocket,
   FaMobileAlt,
-  FaBell,
   FaHandsHelping,
   FaLightbulb,
-  FaDollarSign,
-  FaCogs,
   FaGlobe,
-  FaHandshake,
-  FaShieldAlt,
 } from "react-icons/fa";
 import React, { useRef } from "react";
 import {
