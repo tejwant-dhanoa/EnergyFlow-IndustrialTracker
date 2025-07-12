@@ -1,0 +1,60 @@
+/* BudgetPlanning.css */
+
+.loading-screen {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  text-align: center;
+  padding: 1rem;
+  background: linear-gradient(
+    to bottom right,
+    #0f172a,
+    #1e293b
+  ); /* Dark gradient */
+  color: #e5e7eb; /* Light text */
+}
+
+.spinner {
+  margin-bottom: 20px;
+}
+
+.spinner-icon {
+  width: 64px;
+  height: 64px;
+  color: #3b82f6; /* Blue-500 */
+  animation: spin 1s linear infinite;
+}
+
+.loading-message {
+  font-size: 1.25rem;
+  font-weight: 600;
+  color: #60a5fa; /* Blue-400 */
+  animation: pulse 2s ease-in-out infinite;
+}
+
+.loading-subtext {
+  font-size: 0.9rem;
+  color: #9ca3af; /* Gray-400 */
+  margin-top: 10px;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes pulse {
+  0%,
+  100% {
+    opacity: 0.8;
+  }
+  50% {
+    opacity: 1;
+  }
+}
