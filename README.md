@@ -7,7 +7,7 @@
 ![UI](https://img.shields.io/badge/design-custom%20logo%20%26%20modern%20UI-critical)
 ![Reports](https://img.shields.io/badge/monthly%20report-PDF%20%26%20email-informational)
 
-> 🧠 Industrial-grade intelligence meets sustainability — a sleek, AI-enhanced resource tracker for modern factories.
+>  Industrial-grade intelligence meets sustainability — a sleek, AI-enhanced resource tracker for modern factories.
 
 ---
 
@@ -54,18 +54,18 @@
 ![Contact Us](https://raw.githubusercontent.com/tejwant-dhanoa/EnergyFlow-IndustrialTracker/main/assets/contact.png)
 
 
-## 🧠 Core Features
+##  Core Features
 
-| 🌟 Feature               | 🔍 Description                                                                |
+|  Feature               |  Description                                                                |
 | ------------------------ | ----------------------------------------------------------------------------- |
-| 📊 Live Dashboard        | Displays water, electricity, and effluent stats with bar/line charts & alerts |
-| 🤖 Gemini AI Suggestions | Analyzes data and offers actionable improvements in real time                 |
-| 🧾 Monthly PDF Reports   | Generates structured documents and sends them via email to logged-in users    |
-| 📨 Login Alerts          | Sends an email notification whenever a user logs in                           |
-| 👤 Authentication Suite  | Signup, login, logout, view profile — all built in                            |
-| 🖼️ Modern UI + Logo      | Sleek blue theme with handcrafted visuals and branding                        |
-| 📃 About & Contact Pages | Polished site pages for professional presentation                             |
-| 🌱 Environmental Logging | Encourages sustainability and compliance                                      |
+|  Live Dashboard        | Displays water, electricity, and effluent stats with bar/line charts & alerts |
+|  Gemini AI Suggestions | Analyzes data and offers actionable improvements in real time                 |
+|  Monthly PDF Reports   | Generates structured documents and sends them via email to logged-in users    |
+|  Login Alerts          | Sends an email notification whenever a user logs in                           |
+|  Authentication Suite  | Signup, login, logout, view profile — all built in                            |
+|  Modern UI + Logo      | Sleek blue theme with handcrafted visuals and branding                        |
+|  About & Contact Pages | Polished site pages for professional presentation                             |
+|  Environmental Logging | Encourages sustainability and compliance                                      |
 
 ---
 
@@ -80,17 +80,17 @@
 
 ---
 
-## 🏭 Industrial Relevance
+##  Industrial Relevance
 
-- 📊 Logs all three key metrics: **water**, **electricity**, and **effluent quality**
-- 📈 Allows **threshold tracking** and **AI-driven suggestions**
-- 🧠 Promotes **sustainability** and **environmental compliance**
-- 🗂️ Provides **monthly summaries** for internal review or audits
-- 🔒 Secures user data with **industry-grade authentication** and schema design
+-  Logs all three key metrics: **water**, **electricity**, and **effluent quality**
+-  Allows **threshold tracking** and **AI-driven suggestions**
+-  Promotes **sustainability** and **environmental compliance**
+-  Provides **monthly summaries** for internal review or audits
+-  Secures user data with **industry-grade authentication** and schema design
 
 ---
 
-## 📫 About the Developer
+##  About the Developer
 
 **👩‍💻 Tejwant Kaur Dhanoa**  
 Final-year Computer Science student passionate about backend engineering, scalable systems, and meaningful impact through technology.
@@ -101,8 +101,8 @@ Final-year Computer Science student passionate about backend engineering, scalab
 
 This project highlights:
 
-- 🔧 Full-stack development expertise
-- 🎨 UI/UX design and branding
-- 🧠 AI model integration
-- 📤 Automation and reporting workflows
-- 📦 Scalable backend systems
+-  Full-stack development expertise
+-  UI/UX design and branding
+-  AI model integration
+-  Automation and reporting workflows
+-  Scalable backend systems
