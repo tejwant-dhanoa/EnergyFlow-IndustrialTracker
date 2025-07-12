@@ -20,18 +20,18 @@
 ## 📸 Visual Showcase
 
 ```markdown
-![Home](./assets/homepage.png)
-![Dashboard](./assets/dashboard.png)
-![AI Suggestions](./assets/aisuggestion.png)
-![Login Screen](./assets/login.png)
-![Water Record](./assets/waterusage.png)
-![ELec Record](./assets/elec.png)
-![Effluent Quality Record](./assets/effluent.png)
-![Monthly Report](./assets/report1.png)
-![PDF Export](./assets/report.png)
-![About Us](./assets/about1.png)
-![Contact Us](./assets/contact.png)
-![Signup Screen](./assets/signup.png)
+![Home](assets/homepage.png)
+![Dashboard](assets/dashboard.png)
+![AI Suggestions](assets/aisuggestion.png)
+![Login Screen](assets/login.png)
+![Water Record](assets/waterusage.png)
+![ELec Record](assets/elec.png)
+![Effluent Quality Record](assets/effluent.png)
+![Monthly Report](assets/report1.png)
+![PDF Export](assets/report.png)
+![About Us](assets/about1.png)
+![Contact Us](assets/contact.png)
+![Signup Screen](assets/signup.png)
 ```
 
 ## 🧠 Core Features
