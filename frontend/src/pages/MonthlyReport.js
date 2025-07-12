@@ -35,10 +35,22 @@ const MonthlyReport = () => {
         const email = user.email;
 
         const [water, elec, effluent, userRes] = await Promise.all([
-          axios.get(`/api/water-usage?email=${email}`, config),
-          axios.get(`/api/elec-usage?email=${email}`, config),
-          axios.get(`/api/effluent-quality?email=${email}`, config),
-          axios.get(`/api/auth/profile?email=${email}`, config),
+          axios.get(
+            `${process.env.REACT_APP_API_BASE}/api/water-usage?email=${email}`,
+            config
+          ),
+          axios.get(
+            `${process.env.REACT_APP_API_BASE}/api/elec-usage?email=${email}`,
+            config
+          ),
+          axios.get(
+            `${process.env.REACT_APP_API_BASE}/api/effluent-quality?email=${email}`,
+            config
+          ),
+          axios.get(
+            `${process.env.REACT_APP_API_BASE}/api/auth/profile?email=${email}`,
+            config
+          ),
         ]);
 
         setWaterData(water.data);

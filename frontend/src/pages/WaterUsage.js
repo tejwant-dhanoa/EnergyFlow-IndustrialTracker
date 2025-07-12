@@ -32,7 +32,7 @@ const WaterUsage = () => {
     }
 
     try {
-      await axios.post("http://localhost:3000/api/water-usage/", {
+      await axios.post(`${process.env.REACT_APP_API_BASE}/api/water-usage/`, {
         email,
         location,
         usageLitres: parseFloat(usageLitres),

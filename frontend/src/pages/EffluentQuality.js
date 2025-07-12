@@ -46,7 +46,7 @@ const EffluentQuality = () => {
       return toast.error("Location and date are required");
 
     try {
-      await axios.post("http://localhost:3000/api/effluent-quality", {
+      await axios.post(`${process.env.REACT_APP_API_BASE}/api/effluent-quality`, {
         ...formData,
         email,
         // Convert numeric fields to float

@@ -33,7 +33,7 @@ const ContactUs = () => {
 
     try {
       const response = await axios.post(
-        "http://localhost:3000/api/auth/contact",
+        `${process.env.REACT_APP_API_BASE}/api/auth/contact`,
         formData
       );
       toast.success(response.data.message || "Message sent successfully!");

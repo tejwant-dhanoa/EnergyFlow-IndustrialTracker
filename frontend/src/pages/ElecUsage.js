@@ -26,7 +26,7 @@ const ElecUsagePage = () => {
     }
 
     try {
-      await axios.post("http://localhost:3000/api/elec-usage/", {
+      await axios.post(`${process.env.REACT_APP_API_BASE}/api/elec-usage/`, {
         email,
         location,
         usageKWh: parseFloat(usageKWh),

@@ -8,8 +8,6 @@ import {
   FaBirthdayCake,
 } from "react-icons/fa";
 
-const API_BASE = process.env.REACT_APP_API_BASE || "http://localhost:3000";
-
 const Profile = () => {
   const [profile, setProfile] = useState(null);
   const [loading, setLoading] = useState(true);
@@ -24,7 +22,7 @@ const Profile = () => {
       return;
     }
     axios
-      .get(`${API_BASE}/api/auth/profile?email=${email}`)
+      .get(`${process.env.REACT_APP_API_BASE}/api/auth/profile?email=${email}`)
       .then((res) => {
         setProfile(res.data);
         setLoading(false);

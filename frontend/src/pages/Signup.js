@@ -80,7 +80,7 @@ const Signup = () => {
     try {
       // Check if the email already exists before submitting the form
       const checkResponse = await axios.post(
-        "http://localhost:3000/api/auth/check-email",
+        `${process.env.REACT_APP_API_BASE}/api/auth/check-email`,
         { email: formData.email }
       );
 
@@ -91,7 +91,7 @@ const Signup = () => {
 
       // Proceed with registration if email doesn't exist
       const response = await axios.post(
-        "http://localhost:3000/api/auth/register",
+        `${process.env.REACT_APP_API_BASE}/api/auth/register`,
         formData
       );
       setShowSuccessPopup(true);

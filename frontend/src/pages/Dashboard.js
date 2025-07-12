@@ -32,10 +32,14 @@ const WaterElectricEffluentDashboard = () => {
     const fetchAllData = async () => {
       try {
         const [waterRes, elecRes, effluentRes] = await Promise.all([
-          axios.get(`http://localhost:3000/api/water-usage?email=${email}`),
-          axios.get(`http://localhost:3000/api/elec-usage?email=${email}`),
           axios.get(
-            `http://localhost:3000/api/effluent-quality?email=${email}`
+            `${process.env.REACT_APP_API_BASE}/api/water-usage?email=${email}`
+          ),
+          axios.get(
+            `${process.env.REACT_APP_API_BASE}/api/elec-usage?email=${email}`
+          ),
+          axios.get(
+            `${process.env.REACT_APP_API_BASE}/api/effluent-quality?email=${email}`
           ),
         ]);
 

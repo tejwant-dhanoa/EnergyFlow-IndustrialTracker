@@ -26,7 +26,7 @@ const BudgetSuggestion = () => {
     const fetchSuggestions = async () => {
       try {
         const res = await axios.get(
-          `http://localhost:3000/api/budget/suggestion?email=${email}&month=${month}&year=${year}`
+          `${process.env.REACT_APP_API_BASE}/api/budget/suggestion?email=${email}&month=${month}&year=${year}`
         );
         setData(res.data);
         setLoading(false);
