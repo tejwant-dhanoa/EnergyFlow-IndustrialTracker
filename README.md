@@ -21,7 +21,9 @@
 
 ```markdown
 ![Home](https://raw.githubusercontent.com/tejwant-dhanoa/EnergyFlow-IndustrialTracker/main/assets/homepage.png?raw=true)
-![Dashboard](https://raw.githubusercontent.com/tejwant-dhanoa/EnergyFlow-IndustrialTracker/main/assets/dashboard.png)
+
+![Dashboard](https://raw.githubusercontent.com/tejwant-dhanoa/EnergyFlow-IndustrialTracker/main/assets/dashboard.png?raw=true)
+
 ![AI Suggestions](https://raw.githubusercontent.com/tejwant-dhanoa/EnergyFlow-IndustrialTracker/main/assets/aisuggestion.png)
 ![Login Screen](https://raw.githubusercontent.com/tejwant-dhanoa/EnergyFlow-IndustrialTracker/main/assets/login.png)
 ![Water Record](https://raw.githubusercontent.com/tejwant-dhanoa/EnergyFlow-IndustrialTracker/main/assets/waterusage.png)
