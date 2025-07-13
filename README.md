@@ -1,7 +1,6 @@
 # ⚡ [Live Site](https://energyflowindustrial.netlify.app/) — EnergyFlow Industrial Tracker
 
 ![Status](https://img.shields.io/badge/status-deployed-green)
-![License](https://img.shields.io/badge/license-MIT-blue)
 ![Built With](https://img.shields.io/badge/stack-React%2C%20MongoDB%2C%20Node.js%2C%20Express-orange)
 ![AI Integration](https://img.shields.io/badge/Gemini%20AI-enabled-blueviolet)
 ![UI](https://img.shields.io/badge/design-custom%20logo%20%26%20modern%20UI-critical)
