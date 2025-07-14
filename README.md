@@ -10,7 +10,7 @@
 
 ---
 
-## 🌐 Live Demo
+##  Live Demo
 
 🔗 [https://energyflowindustrial.netlify.app/](https://energyflowindustrial.netlify.app/)
 
@@ -18,38 +18,38 @@
 
 ## 📸 Visual Showcase
 
-### 🏠 Home Page
+###  Home Page
 ![Home](https://raw.githubusercontent.com/tejwant-dhanoa/EnergyFlow-IndustrialTracker/main/assets/homepage.png)
 
-### 📊 Dashboard
+###  Dashboard
 ![Dashboard](https://raw.githubusercontent.com/tejwant-dhanoa/EnergyFlow-IndustrialTracker/main/assets/dashboard.png)
 
-### 🤖 AI Suggestions
+###  AI Suggestions
 ![AI Suggestions](https://raw.githubusercontent.com/tejwant-dhanoa/EnergyFlow-IndustrialTracker/main/assets/aisuggestion.png)
 
-### 🔐 Login & Signup Screens
+###  Login & Signup Screens
 ![Login Screen](https://raw.githubusercontent.com/tejwant-dhanoa/EnergyFlow-IndustrialTracker/main/assets/login.png)
 ![Signup Screen](https://raw.githubusercontent.com/tejwant-dhanoa/EnergyFlow-IndustrialTracker/main/assets/signup.png)
 
-### 💧 Water Usage Tracking
+###  Water Usage Tracking
 ![Water Record](https://raw.githubusercontent.com/tejwant-dhanoa/EnergyFlow-IndustrialTracker/main/assets/waterusage.png)
 
-### ⚡ Electricity Usage Tracking
+###  Electricity Usage Tracking
 ![Elec Record](https://raw.githubusercontent.com/tejwant-dhanoa/EnergyFlow-IndustrialTracker/main/assets/elec.png)
 
-### 🧪 Effluent Quality Tracking
+###  Effluent Quality Tracking
 ![Effluent Quality Record](https://raw.githubusercontent.com/tejwant-dhanoa/EnergyFlow-IndustrialTracker/main/assets/effluent.png)
 
-### 📅 Monthly Report (UI)
+###  Monthly Report (UI)
 ![Monthly Report](https://raw.githubusercontent.com/tejwant-dhanoa/EnergyFlow-IndustrialTracker/main/assets/report1.png)
 
-### 🧾 PDF Exported Report
+###  PDF Exported Report
 ![PDF Export](https://raw.githubusercontent.com/tejwant-dhanoa/EnergyFlow-IndustrialTracker/main/assets/report.png)
 
-### 📄 About Us Page
+###  About Us Page
 ![About Us](https://raw.githubusercontent.com/tejwant-dhanoa/EnergyFlow-IndustrialTracker/main/assets/about1.png)
 
-### 📬 Contact Us Page
+###  Contact Us Page
 ![Contact Us](https://raw.githubusercontent.com/tejwant-dhanoa/EnergyFlow-IndustrialTracker/main/assets/contact.png)
 
 
